@@ -8,16 +8,16 @@ env :
 jobs:
 
   main:
-  runs-on: ubuntu-latest
-  steps:
-    - name: checkout
-      use: actions/checkout@vs
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
 
-    - name: upload the artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: ${{ env.ARTIFACT_NAME}}
-        path: .
+      - name: upload the artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.ARTIFACT_NAME}}
+          path: .
 
 
 
