@@ -1,3 +1,5 @@
+# Build Status Badge: ![](https://github.com/khuramhussainallianz/github_actions_tutorial/workflows/upload/badge.svg)
+
 # Chapter 01_01
 
 - Create a repository on GitHub using the [New Repository](https://github.com/new) page.  Name it something that relates to the lesson like `exercise-files`.
