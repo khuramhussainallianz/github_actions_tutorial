@@ -8,7 +8,6 @@ env :
 jobs:
 
   main:
-  name : checkout
   runs-on: ubuntu-latest
   steps:
     - name: checkout
